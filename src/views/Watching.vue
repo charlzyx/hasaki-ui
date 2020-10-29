@@ -26,7 +26,7 @@ export default {
   components: { Navs },
   mounted() {
     const host = window.location.hostname;
-    const socket = new WebSocket("ws://" + host + ":2333/ws");
+    const socket = new WebSocket("ws://" + host + "__hasaki__/ws");
     window.addEventListener('beforeunload', () => {
       socket.send("close");
       socket.onclose = function () {
