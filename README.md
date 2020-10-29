@@ -1,6 +1,8 @@
 # hasaki
 
-![](https://gitee.com/charlzyx/hasaki-ui/raw/master/WechatIMG97.png)
+Web UI for [hasaki](https://github.com/charlzyx/hasaki)
+
+![](https://github.com/charlzyx/hasaki/raw/master/run.gif)
 
 ## Project setup
 ```
