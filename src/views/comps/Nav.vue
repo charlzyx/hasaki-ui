@@ -3,7 +3,7 @@
     <router-link to="/settings" >
       <ou-button style="" type="primary">设置面板 → </ou-button>
     </router-link>
-    <router-link to="/watching" >
+    <router-link to="/__logs/info.log" >
       <ou-button style="" type="primary">查看监控 → </ou-button>
     </router-link>
   </nav>
