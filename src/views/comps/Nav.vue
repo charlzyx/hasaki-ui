@@ -3,9 +3,9 @@
     <router-link to="/settings" >
       <ou-button style="" type="primary">设置面板 → </ou-button>
     </router-link>
-    <router-link to="./__logs/info.log" >
+    <a href="/__logs/info.log" target="__blank">
       <ou-button style="" type="primary">查看监控 → </ou-button>
-    </router-link>
+    </a>
   </nav>
 </template>
 <script lang="ts">
